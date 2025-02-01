@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -25,11 +24,6 @@ dist-ssr
 
 # Dependencies
 node_modules/
-.env
-.env.local
-.env.development
-.env.production
-.env.test
 
 # Build
 dist/
@@ -45,7 +39,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Editor & System files
-.vscode/
 .idea/
 *.swp
 .DS_Store
@@ -61,3 +54,7 @@ cypress/
 *.lock
 public/locales/
 
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
