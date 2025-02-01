@@ -25,11 +25,6 @@ dist-ssr
 
 # Dependencies
 node_modules/
-.env
-.env.local
-.env.development
-.env.production
-.env.test
 
 # Build
 dist/
@@ -61,3 +56,7 @@ cypress/
 *.lock
 public/locales/
 
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
